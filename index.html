@@ -70,9 +70,9 @@ nav{position:fixed;top:0;left:0;width:100%;z-index:1000;height:60px;
   padding:0 56px;
   display:flex;align-items:center;justify-content:space-between;
 }
-nav.scrolled{background:rgba(245,244,240,0.93);backdrop-filter:blur(14px);border-bottom:1px solid rgba(10,10,8,0.07);}
+nav.scrolled{background:rgba(8,8,7,0.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,0.05);}
 nav.dark{background:rgba(8,8,7,0.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,0.05);}
-.brand-text{font-family:var(--serif);font-size:18px;font-weight:700;letter-spacing:0.08em;color:var(--black);text-decoration:none;line-height:1;}
+.brand-text{font-family:var(--serif);font-size:18px;font-weight:700;letter-spacing:0.08em;color:var(--white);text-decoration:none;line-height:1;}
 nav.dark .brand-text{color:var(--white);}
 .nav-links{display:flex;gap:36px;list-style:none;}
 .nav-links a{font-size:10px;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gray-mid);text-decoration:none;transition:color 0.3s;position:relative;}
@@ -86,7 +86,7 @@ nav.dark .nav-links a:hover{color:var(--white);}
 nav.dark .nav-order{background:var(--white);color:var(--black)!important;border-color:rgba(255,255,255,0.45);}
 .nav-order:hover{opacity:0.7;}
 
-#hero{min-height:120vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:60px;background:var(--white);}
+#hero{min-height:120vh;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding-top:60px;background:var(--black);}
 .hero-logo-area{padding:20px 0 20px;}
 .hero-logo-area img{height:150px;width:auto;object-fit:contain;}
 .hero-image-frame{
@@ -259,7 +259,7 @@ nav.dark .nav-order{background:var(--white);color:var(--black)!important;border-
 
 
 #concept{
-  padding:140px 0;
+  padding:200px 0;
   background:var(--black);
 }
 
@@ -278,7 +278,7 @@ nav.dark .nav-order{background:var(--white);color:var(--black)!important;border-
   font-weight:600;
   line-height:1.15;
   color:var(--white);
-  margin-bottom:28px;
+  margin-bottom:34px;
 }
 
 .concept-body{
@@ -313,7 +313,7 @@ nav.dark .nav-order{background:var(--white);color:var(--black)!important;border-
   background:radial-gradient(circle,rgba(255,255,255,0.05) 0%,transparent 70%);
   pointer-events:none;transform:translate(-50%,-50%);opacity:0;transition:opacity 0.3s;}
 .edition-header{max-width:1440px;margin:0 auto 75px;padding:0 80px;}
-.edition-hed{font-family:var(--serif);font-size:clamp(34px,4.5vw,56px);font-weight:600;font-style:normal;color:var(--white);line-height:1.15;margin-bottom:28px;}
+.edition-hed{font-family:var(--serif);font-size:clamp(25px,4.5vw,11px);font-weight:400;font-style:normal;color:var(--gray-light);line-height:1.15;margin-bottom:28px; text-align: center}
 .ed-section-label{font-size:10px;letter-spacing:0.35em;text-transform:uppercase;color:rgba(245,244,240,0.25);margin-bottom:20px;}
 
 
@@ -561,8 +561,8 @@ body, button, input, textarea{font-family:var(--sans);}
     <div>
       <h2 class="about-heading reveal">
         왜 인생에서 가장 중요한 <br>
-        마지막 순간이 <br>
-        가장 뻔해야 할까요?<br>
+        삶의 마지막 순간이 <br>
+        가장 지루해야 할까요?<br>
 
       </h2>
       <p class="about-body reveal">
@@ -618,7 +618,7 @@ body, button, input, textarea{font-family:var(--sans);}
         <img src="stage1-5.png">
       </div>
       <div class="stage-final-text" id="stageFinalText">
-        <h3>Sweet dreambox: <br><h3 style="color: #7450ae">Custom Coffin Collection</h3> </h3>
+        <h3>Sweet dreambox: <br><h3 style="color: darkgoldenrod;">Custom Coffin Collection</h3> </h3>
         <p style="font-weight: 500; font-size: 15pt;">당신의 마지막 무대를 장식하세요.</p>
       </div>
     </div>
@@ -657,7 +657,7 @@ body, button, input, textarea{font-family:var(--sans);}
 <section id="edition">
   <div class="edition-mouse-light" id="editionLight"></div>
   <div class="edition-header">
-    <h2 class="edition-hed reveal">당신만의 관으로<br>개성을 표현하세요!</h2>
+    <h2 class="edition-hed reveal">당신만의 관으로 개성을 표현하세요!</h2>
   </div>
   <div class="curtain-stage">
     <div class="ed-cards-track-wrap">
